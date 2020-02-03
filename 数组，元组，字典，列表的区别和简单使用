@@ -3,8 +3,25 @@ b=2
 b,a=a,b
 print(a,b)
 
-
+#Python数据类型学习
  a, b, c, d = 20, 5.5, True, 4+3j
  
  print(type(a), type(b), type(c),type(d))
  
+a=2
+isinstance(a, int)
+#区别tyep和isinstance区别
+
+
+注意：
+
+1、Python可以同时为多个变量赋值，如a, b = 1, 2。
+2、一个变量可以通过赋值指向不同类型的对象。
+3、数值的除法包含两个运算符：/ 返回一个浮点数，// 返回一个整数。
+4、在混合计算时，Python会把整型转换成为浮点数。
+
+
+您可以通过使用del语句删除单个或多个对象。例如：
+
+del var
+del var_a, var_b
